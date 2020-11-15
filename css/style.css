@@ -38,6 +38,7 @@ nav {
 
 .nav-links a:link {
   text-decoration: none;
+  color: black;
 }
 
 .nav-links a:visited {
@@ -64,6 +65,7 @@ nav {
 
 #logo a:link {
   text-decoration: none;
+  color: black;
 }
 
 #logo a:visited {
@@ -92,6 +94,7 @@ nav {
 
 .big-text a:link {
   text-decoration: none;
+  color: black;
 }
 
 .big-text a:visited {
@@ -167,6 +170,7 @@ nav {
 
 .footer a:link {
   text-decoration: none;
+  color: black;
 }
 
 .footer a:visited {
