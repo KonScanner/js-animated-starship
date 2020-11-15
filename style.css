@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: "Space Mono", monospace;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.landing {
+  min-height: 100vh;
+  background: url(https://1.bp.blogspot.com/-2QfvMMv786s/XS24DEUyxTI/AAAAAAAAD5c/OL7SRNk5ZgovOWyuCa1DV74qx_BRoCr3ACLcBGAs/s2048/SpaceX%2BStarship%2Bat%2BMars%2BBase%2BAlpha%2BHD.jpg);
+  opacity: 0.95;
+  background-size: cover;
+  padding: 0rem 5rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 10vh;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: rgba(255, 255, 255, 0.145);
+}
+
+#logo {
+  font-family: "Source Serif Pro", serif;
+  font-family: "Space Mono", monospace;
+  font-weight: lighter;
+  background-color: rgba(255, 255, 255, 0.145);
+  font-size: 2rem;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+.big-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  font-family: "Space Mono", monospace;
+  color: rgba(0, 0, 0, 0.796);
+  background-color: rgba(255, 255, 255, 0.125);
+}
+
+.intro {
+  background: url(https://cdn.mos.cms.futurecdn.net/br4FkqpBujNhxsTfxgtXdE.jpg);
+  background-size: cover;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-text {
+  color: rgb(227, 242, 255);
+  font-family: "Space Mono", monospace;
+  font-size: 1.5rem;
+}
+
+.slider {
+  min-height: 100vh;
+  background: black;
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(100%);
+}
+
+.hide {
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
