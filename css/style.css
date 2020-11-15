@@ -36,6 +36,24 @@ nav {
   background-color: rgba(255, 255, 255, 0.145);
 }
 
+.nav-links a:link {
+  text-decoration: none;
+}
+
+.nav-links a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.nav-links a:active {
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+
 #logo {
   font-family: "Source Serif Pro", serif;
   font-family: "Space Mono", monospace;
@@ -44,20 +62,20 @@ nav {
   font-size: 2.5rem;
 }
 
-a:link {
+#logo a:link {
   text-decoration: none;
 }
 
-a:visited {
+#logo a:visited {
   text-decoration: none;
   color: black;
 }
 
-a:hover {
+#logo a:hover {
   text-decoration: underline;
 }
 
-a:active {
+#logo a:active {
   color: rgb(0, 0, 0);
   background-color: white;
 }
@@ -70,6 +88,24 @@ a:active {
   font-family: "Space Mono", monospace;
   color: rgba(0, 0, 0, 0.796);
   background-color: rgba(255, 255, 255, 0.125);
+}
+
+.big-text a:link {
+  text-decoration: none;
+}
+
+.big-text a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.big-text a:hover {
+  text-decoration: underline;
+}
+
+.big-text a:active {
+  color: rgb(0, 0, 0);
+  background-color: white;
 }
 
 .intro {
@@ -127,4 +163,22 @@ a:active {
   font-family: "Space Mono", monospace;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.footer a:link {
+  text-decoration: none;
+}
+
+.footer a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer a:active {
+  color: rgb(0, 0, 0);
+  background-color: white;
 }
